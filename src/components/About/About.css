@@ -4,7 +4,12 @@
 }
 
 .about__name {
+  display: flex;
+  flex-direction: row;
   color: var(--clr-primary);
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 .about__role {
@@ -14,11 +19,16 @@
 .about__desc {
   font-size: 1rem;
   max-width: 600px;
+  margin: auto;
+  margin-top: 2.4em;
 }
 
-.about__desc,
 .about__contact {
+  display: flex;
+  flex: row;
   margin-top: 2.4em;
+  justify-content: center;
+  align-items: center;
 }
 
 .about .link--icon {

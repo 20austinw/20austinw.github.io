@@ -7,15 +7,15 @@ const About = () => {
   const { name, role, description, resume, social } = about
 
   return (
-    <div className='about center'>
+    <div className='about'>
       {name && (
         <h1>
-          <span className='about__name'>{name}</span>
+          <div className='about__name'>{name}</div>
         </h1>
       )}
 
       {role && <h2 className='about__role'>{role}</h2>}
-      <p className='about__desc'>
+      <div className='about__desc'>
         &#128075; I am Austin, a sophomore CS student at Cornell University,
         currently working as a full stack developer @{' '}
         <a href='https://www.cornelldti.org/' className='link link--nav'>
@@ -42,28 +42,28 @@ const About = () => {
           <a href='https://www.cornelldti.org/' className='link link--nav'>
             email
           </a>
-          !{' '}
+          !{' '}  
         </b>{' '}
         <br /> <br />
-      </p>
+      </div>
 
-      <div className='about__contact center'>
+      <div className='about__contact'>
         <a href={resume}>
-          <span type='button' className='btn btn--outline'>
+          <div type='button' className='btn btn--outline'>
             Resume
-          </span>
+          </div>
         </a>
 
         <a href={social.github}>
-          <span type='button' className='btn btn--outline'>
+          <div type='button' className='btn btn--outline'>
             Github
-          </span>
+          </div>
         </a>
 
         <a href={social.linkedin}>
-          <span type='button' className='btn btn--outline'>
+          <div type='button' className='btn btn--outline'>
             LinkedIn
-          </span>
+          </div>
         </a>
       </div>
     </div>

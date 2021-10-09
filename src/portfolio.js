@@ -6,7 +6,7 @@ const about = {
   name: 'Austin Wu',
   role: '',
   resume:
-    'https://drive.google.com/file/d/1v5cBvZgmcIL-BU4cXfoaTowvP7PT4BKN/view?usp=sharing',
+    'https://drive.google.com/file/d/1IQRauAdUUVo_nrTOQeb9wuX1r6Xg-BV5/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/austin-wu-299b46201/',
     github: 'https://github.com/20austinw',
@@ -44,7 +44,7 @@ const experiences = [
     description:
       'A data science + machine learning library for OCaml that replicates and combines the most commonly used functionality of three famous Python libraries - Numpy, Pandas, Sklearn. Integrates well with the Archimedes library for graphing, and can thus be used for every step of a regular machine learning workflow.',
     stack: ['OCaml', 'Jupyter Notebooks'],
-    sourceCode: 'https://github.com/Aryan77/ocaml-data-science-ml',
+    sourceCode: 'https://github.com/20austinw/ocaml-data-science',
   },
   {
     name: 'CoursePlan',

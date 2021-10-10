@@ -36,23 +36,13 @@ const projects = [
     stack: ['React', 'TypeScript', 'CSS', 'HTML', 'Firebase'],
     livePreview: 'https://clubview.netlify.app/',
   },
-]
-
-const experiences = [
   {
-    name: 'OCaml Data Science Library',
+    name: 'AI Projects',
     description:
-      'A data science + machine learning library for OCaml that replicates and combines the most commonly used functionality of three famous Python libraries - Numpy, Pandas, Sklearn. Integrates well with the Archimedes library for graphing, and can thus be used for every step of a regular machine learning workflow.',
-    stack: ['OCaml', 'Jupyter Notebooks'],
-    sourceCode: 'https://github.com/20austinw/ocaml-data-science',
-  },
-  {
-    name: 'CoursePlan',
-    description:
-      'A web app that lets Cornell students check what requirements they have satisfied to the completion of their degree and plan future semesters. Currently working on getting high school requirements correctly transferred across multiple colleges and majors, as part of the Cornell DTI project team.',
-    stack: ['TypeScript', 'Vue', 'Firebase', ''],
-    sourceCode: 'https://github.com/cornell-dti/course-plan',
-    livePreview: 'https://courseplan.io/',
+      'A series of projects I did in highschool for my Honours Artificial Intelligence class in Taipei American School',
+    stack: ['Java'],
+    sourceCode:
+      'https://drive.google.com/drive/folders/1_5i0Xz1ZMm0t2OSl6AoUiRI0OIugynqr?usp=sharing',
   },
 ]
 
@@ -72,4 +62,4 @@ const contact = {
   email: 'hw424@cornell.edu',
 }
 
-export { header, about, projects, experiences, skills, contact }
+export { header, about, projects, skills, contact }

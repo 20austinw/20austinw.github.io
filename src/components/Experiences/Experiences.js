@@ -48,7 +48,7 @@ const Experiences = () => (
             >
               Cornell University
             </a>
-            <br /> -- Discrete Structures Teaching Assistant (CS 2800)--
+            <br /> --Discrete Structures Teaching Assistant (CS 2800) --
           </div>
           <div className='item-detail'>
             <br />

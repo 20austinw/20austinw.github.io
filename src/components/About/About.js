@@ -1,6 +1,6 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import { about } from '../../portfolio'
+import { about, contact } from '../../portfolio'
 import './About.css'
 
 const About = () => {
@@ -39,10 +39,10 @@ const About = () => {
           {' '}
           I am currently looking for software engineering internships for Summer
           2022! Please reach out to me through my{' '}
-          <a href='https://www.cornelldti.org/' className='link link--nav'>
+          <a href={`mailto:${contact.email}`} className='link link--nav'>
             email
           </a>
-          !{' '}  
+          !{' '}
         </b>{' '}
         <br /> <br />
       </div>

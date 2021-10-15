@@ -21,7 +21,7 @@ const Current = () => {
         Also currently working through different tech stacks that would help me
         in my full stack development endeavors. <br />
         <br />
-        Stay tuned for updates on my future projects and adeventures!
+        Stay tuned for updates on my future projects and adventures!
       </p>
     </div>
   )
